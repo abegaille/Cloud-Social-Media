@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=============== ICONS ===============-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        
+        <!-- ==============bootstrap=========== -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- ============== main css ==========-->
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/explore.css">
+        <link rel="stylesheet" href="/assets/css/media.css">
+        <link rel="stylesheet" href="/assets/css/profile.css">
+
+        
+        <title>Find Your Duo</title>
+        
+    </head>
+    <body>
+        <!-- Nav bar start -->
+        <header class="header" id="header">
+            <nav class="nav container">
+              <a href="/explore.html" class="nav__logo">
+                <img src="/assets/logo/Cloud.png" alt="" style="width: 50px; margin-right: 3 px;" >Cloud
+              </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="/explore.html" class="nav__link ">
+                                <span class="nav__name">
+                                    <span class="material-symbols-outlined" style="color: #64ffda">
+                                        explore
+                                        </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/index.html" class="nav__link" >
+                                <du class="nav__name">
+                                    <span class="material-symbols-outlined" style="color: #e5e5e5">
+                                        stadia_controller
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/messages.html" class="nav__link">
+                                <span class="nav__name">
+                                    <span class="material-symbols-outlined" style="color: #e5e5e5">
+                                        chat
+                                        </span>
+                                </span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item nav__profile">
+                            <a href="/profile.html" class="nav__link">
+                                
+                                <span class="nav__name">
+                                    <span class="material-symbols-outlined" style="color: #e5e5e5">
+                                        account_box
+                                        </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item dropdown">
+                          <a href="#" class="nav__link">
+                            <span class="material-symbols-outlined" style="color: #e5e5e5;">
+                              notifications
+                            </span>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li>No new notifications</li>
+                            <!-- Add more notification items here -->
+                          </ul>
+                        </li>
+                        <div class="profile">
+                          <a href="#" class="profile__link">
+                              <img class="profile__avatar" src="/assets/img/avatar/monkey d. luffy.jpg" alt="Profile Avatar">
+                          </a>
+                          <div class="dropdown-menu">
+                              <a href="/profile.html">Profile</a>
+                              <a href="/login.html">Log Out</a>
+                          </div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- nav bar end -->
+        <main>
+            <!-- post nav bar start -->
+            <section class="container section section__height" id="main">
+                <div class="main__body">
+                    <div class="sidebarRow">
+                        <a href="/explore.html" class="sidebar__nav">
+                            <h4 class="active">For You</h4>
+                        </a>
+                    </div>
+                    <div class="sidebarRow">
+                        <a  href="/exploreLive.html" class="sidebar__nav">
+                            <h4>Live</h4>
+                        </a>
+                    </div>
+                </div>
+              
+            </section>
+            <!-- post nav bar end --> 
+
+            <!-- Post section start-->
+
+            <!-- First post -->
+            <div class="post__section">
+                <div class="post">
+                    <div class="post__top">
+                      <a href="/Profiles/Zoro.html">
+                        <img
+                        class="user__avatar post__avatar"
+                        src="/assets/img/avatar/zoro (2).jpg" 
+                        alt="" 
+                        >
+                        <div class="post__topInfo">
+                            <h3>Roronoa Zoro</h3></a>
+                            <p>April 12, 2024</p>
+                        </div>
+                    </div>
+                    <div class="post__bottom">
+                        <p>Comeback set nina Tigreal at Badang 🤜🏻🤛🏻 #MLBB #Mobilelegends #MCC #MLBBHighlights @demonslayer_ix</p>
+                    </div>
+                    <div class="post__image">
+                        <div class="video-container">
+                            <video  muted loop id="video2" width="100%" height="100%" controls>
+                              <source src="/assets/vid/Download (1).mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                             
+                            </video>
+                        </div>
+
+                        
+                          
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option post" data-post-id="1">
+                            <i id="likeIcon" alt="Like"  onclick="incrementLikes(1)"  class="likeIcon fa-solid fa-heart fa-xl"></i>
+                            <span class="likeCount" id="likeCount">1892 </span> <span>Likes</span>
+                            <br>
+
+                        
+                            
+                        
+                            
+                        </div>
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option" id="viewCommentsButton">
+                            <i data-toggle="modal" data-target="#commentModal1" class="fa-solid fa-comment fa-xl"></i>
+                            <p data-toggle="modal" data-target="#commentModal1">542 Comment</p>
+                        </div>
+                       
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="fa-solid fa-share fa-xl"></i>
+                            <p>131 share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- First post end -->
+            <!-- second post  -->
+            <div class="post__section">
+                <div class="post">
+                    <div class="post__top">
+                      <a href="/Profiles/rich/flash.html">
+                        <img
+                        class="user__avatar post__avatar"
+                        src="/assets/img/avatar/barry allen flash.jpg" 
+                        alt="" 
+                        ></a>
+                        <div class="post__topInfo">
+                            <h3>The flash</h3>
+                            <p>January 12, 2024</p>
+                        </div>
+                    </div>
+                    <div class="post__bottom">
+                        <p>nadarang nnaman sayong apoy using @CODM | SFX overlay #CODM #codmobile #codmobileclips</p>
+                    </div>
+                    <div class="post__image">
+                        <div class="video-container">
+                            <video  muted loop id="video2" width="100%" height="100%" controls>
+                              <source src="/assets/vid/Download (2).mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                             
+                            </video>
+                        </div>
+                        
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option post" data-post-id="2">
+                            <i id="likeIcon" alt="Like"  onclick="incrementLikes(2)"  class="likeIcon fa-solid fa-heart fa-xl"></i>
+                            <span class="likeCount" id="likeCount">122 </span> <span>Likes</span>
+                            <br>
+
+                        
+                            
+                        
+                            
+                        </div>
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option" id="viewCommentsButton">
+                            <i data-toggle="modal" data-target="#commentModal2" class="fa-solid fa-comment fa-xl"></i>
+                            <p data-toggle="modal" data-target="#commentModal2">234 Comment</p>
+                        </div>
+                       
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="fa-solid fa-share fa-xl"></i>
+                            <p>49 share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- second post end -->
+
+            <!-- third post -->
+            <div class="post__section">
+                <div class="post">
+                    <div class="post__top">
+                      <a href="/Profiles/IronMan.html">
+                        <img
+                        class="user__avatar post__avatar"
+                        src="/assets/img/avatar/iron man.jpg" 
+                        alt="" 
+                        ></a>
+                        <div class="post__topInfo">
+                            <h3>Iron Man</h3>
+                            <p>February 21, 2024</p>
+                        </div>
+                    </div>
+                    <div class="post__bottom">
+                        <p>showtime LGD HS#codmmemories #callofdutymobile #meenjoyingcodm #callofduty #codm #</p>
+                    </div>
+                    <div class="post__image">
+                        <div class="video-container">
+                            <video  muted loop id="video2" width="100%" height="100%" controls>
+                              <source src="/assets/vid/Download (3).mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                              
+                            </video>
+                        </div>
+                        
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option post" data-post-id="3">
+                            <i id="likeIcon" alt="Like"  onclick="incrementLikes(3)"  class="likeIcon fa-solid fa-heart fa-xl"></i>
+                            <span class="likeCount" id="likeCount">942 </span> <span>Likes</span>
+                            <br>
+
+                        
+                            
+                        
+                            
+                        </div>
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option" id="viewCommentsButton">
+                            <i data-toggle="modal" data-target="#commentModal3" class="fa-solid fa-comment fa-xl"></i>
+                            <p data-toggle="modal" data-target="#commentModal3">122 Comment</p>
+                        </div>
+                       
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="fa-solid fa-share fa-xl"></i>
+                            <p>232 share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- third post end -->
+
+            <!-- fourth post -->
+            <div class="post__section">
+                <div class="post">
+                    <div class="post__top">
+                      <a href="/Profiles/thor.html">
+                        <img
+                        class="user__avatar post__avatar"
+                        src="/assets/img/avatar/thor.jpg" 
+                        alt="" 
+                        ></a>
+                        <div class="post__topInfo">
+                            <h3>Thor</h3>
+                            <p>March 20, 2024</p>
+                        </div>
+                    </div>
+                    <div class="post__bottom">
+                        <p>#codmhighlights #codm #fypage #codmobilesniper #codmsniper #fypシ #cod #codmgamehighlight</p>
+                    </div>
+                    <div class="post__image">
+                        <div class="video-container">
+                            <video muted loop id="video2" width="100%" height="100%" controls>
+                              <source src="/assets/vid/Download (4).mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option post" data-post-id="4">
+                            <i id="likeIcon" alt="Like"  onclick="incrementLikes(4)"  class="likeIcon fa-solid fa-heart fa-xl"></i>
+                            <span class="likeCount" id="likeCount">682 </span> <span>Likes</span>
+                            <br>
+
+                        
+                            
+                        
+                            
+                        </div>
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option" id="viewCommentsButton">
+                            <i data-toggle="modal" data-target="#commentModal4" class="fa-solid fa-comment fa-xl"></i>
+                            <p data-toggle="modal" data-target="#commentModal4">1220 Comment</p>
+                        </div>
+                       
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="fa-solid fa-share fa-xl"></i>
+                            <p>45 share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fourth post end -->
+            <!-- fifth post -->
+            <div class="post__section">
+                <div class="post">
+                    <div class="post__top">
+                      <a href="/Profiles/tony.html">
+                        <img
+                        class="user__avatar post__avatar"
+                        src="/assets/img/avatar/chopper.jpg" 
+                        alt="" 
+                        ></a>
+                        <div class="post__topInfo">
+                            <h3>Tony Tony Chopper</h3>
+                            <p>March 13, 2024</p>
+                        </div>
+                    </div>
+                    <div class="post__bottom">
+                        <p>KAYLE The Righteous #leagueoflegends #lolwildrift #fypシ #highlight #montage #wildrift #kayle</p>
+                    </div>
+                    <div class="post__image">
+                      
+                        <div class="video-container">
+                            <video muted loop id="video2" width="100%" height="100%" controls>
+                              <source src="/assets/vid/Download (5).mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option post" data-post-id="5">
+                            <i id="likeIcon" alt="Like"  onclick="incrementLikes(5)"  class="likeIcon fa-solid fa-heart fa-xl"></i>
+                            <span class="likeCount" id="likeCount">682 </span> <span>Likes</span>
+                            <br>
+
+                        
+                            
+                        
+                            
+                        </div>
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option" id="viewCommentsButton">
+                            <i data-toggle="modal" data-target="#commentModal5" class="fa-solid fa-comment fa-xl"></i>
+                            <p data-toggle="modal" data-target="#commentModal5">1220 Comment</p>
+                        </div>
+                       
+                    </div>
+                    <div class="post__options">
+                        <div class="post__option">
+                            <i class="fa-solid fa-share fa-xl"></i>
+                            <p>45 share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fifth post end -->
+            <!-- sixth post -->
+            <div class="post__section">
+              <div class="post">
+                  <div class="post__top">
+                    <a href="/profile.html">
+                      <img
+                      class="user__avatar post__avatar"
+                      src="/assets/img/avatar/monkey d. luffy.jpg" 
+                      alt="" 
+                      ></a>
+                      <div class="post__topInfo">
+                          <h3>Monkey D. luffy</h3>
+                          <p>March 1, 2024</p>
+                      </div>
+                  </div>
+                  <div class="post__bottom">
+                      <p>Caitlyn Highlights part 63 #leagueoflegends #leagueoflegendsbrasil #caitlyn</p>
+                  </div>
+
+                  <div class="post__image">
+                      <div class="video-container">
+                          <video muted loop id="video2" width="100%" height="100%" controls>
+                            <source src="/assets/vid/Download (6).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                      </div>
+                      
+                  </div>
+                  <div class="post__options">
+                      <div class="post__option post" data-post-id="6">
+                          <i id="likeIcon" alt="Like"  onclick="incrementLikes(6)"  class="likeIcon fa-solid fa-heart fa-xl"></i>
+                          <span class="likeCount" id="likeCount">682 </span> <span>Likes</span>
+                          <br>
+
+                      
+                          
+                      
+                          
+                      </div>
+                  </div>
+                  <div class="post__options">
+                      <div class="post__option" id="viewCommentsButton">
+                          <i data-toggle="modal" data-target="#commentModal5" class="fa-solid fa-comment fa-xl"></i>
+                          <p data-toggle="modal" data-target="#commentModal5">1220 Comment</p>
+                      </div>
+                     
+                  </div>
+                  <div class="post__options">
+                      <div class="post__option">
+                          <i class="fa-solid fa-share fa-xl"></i>
+                          <p>45 share</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <!-- sixth post end -->
+            <!-- post section end -->
+        </main>
+
+
+
+        <!-- modal start -->
+        <!-- modal 1 -->
+        <div class="modal fade" id="commentModal1" tabindex="-1" role="dialog" aria-labelledby="commentModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="commentModalLabel">Comments</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="comments__container">
+                    <div id="comments">
+                      <div  style="cursor: pointer;">View more comments</div>
+                      <div  class="alert alert-info"><img src="/assets/img/spider gwen pp.jpg" class="comment_avatar">Can I play with you</div>
+                      <div class="alert alert-info"><img src="/assets/img/superman.jpg" class="comment_avatar">good game very impresive</div>
+                      <div class="alert alert-info"><img src="/assets/img/avatar/chopper.jpg" class="comment_avatar">nice shot</div>
+                    </div>
+                  </div>
+                  <form id="commentForm" class="mt-4">
+                    <div class="form-group">
+                      <label for="commentText">Add Comment:</label>
+                      <textarea class="form-control" id="commentText" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #0a192f; color: #e5e5e5;">Post Comment</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- modal 1 end -->
+        <!-- modal 2 -->
+        <div class="modal fade" id="commentModal2" tabindex="-1" role="dialog" aria-labelledby="commentModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="commentModalLabel">Comments</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="comments__container">
+                    <div id="comments">
+                      <div  style="cursor: pointer;">View more comments</div>
+                      <div  class="alert alert-info"><img src="/assets/img/avatar/thor.jpg" class="comment_avatar">You radiate positivity!</div>
+                      <div class="alert alert-info"><img src="/assets/img/avatar/iron man.jpg" class="comment_avatar">Your smile brightens up any room.</div>
+                      <div class="alert alert-info"><img src="/assets/img/avatar/barry allen flash.jpg" class="comment_avatar">You inspire me with your kindness.</div>
+                    </div>
+                  </div>
+                  <form id="commentForm" class="mt-4">
+                    <div class="form-group">
+                      <label for="commentText">Add Comment:</label>
+                      <textarea class="form-control" id="commentText" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #0a192f; color: #e5e5e5;">Post Comment</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- modal 2 end -->
+        <!-- modal 3 -->
+        <div class="modal fade" id="commentModal3" tabindex="-1" role="dialog" aria-labelledby="commentModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="commentModalLabel">Comments</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="comments__container">
+                    <div id="comments">
+                      <div  style="cursor: pointer;">View more comments</div>
+                      <div  class="alert alert-info"><img src="/assets/img/avatar/Steve Rogers captain america.jpg" class="comment_avatar">You have a heart of gold.s</div>
+                      <div class="alert alert-info"><img src="/assets/img/avatar/super man.jpg" class="comment_avatar">Your enthusiasm is contagious.</div>
+                      <div class="alert alert-info"><img src="/assets/img/avatar/wonder woman.jpg" class="comment_avatar">You're making a difference in the world.</div>
+                    </div>
+                  </div>
+                  <form id="commentForm" class="mt-4">
+                    <div class="form-group">
+                      <label for="commentText">Add Comment:</label>
+                      <textarea class="form-control" id="commentText" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #0a192f; color: #e5e5e5;">Post Comment</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- modal3 end -->
+        <!-- modal 4 -->
+        <div class="modal fade" id="commentModal4" tabindex="-1" role="dialog" aria-labelledby="commentModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="commentModalLabel">Comments</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="comments__container">
+                    <div id="comments">
+                      <div  style="cursor: pointer;">View more comments</div>
+                      <div  class="alert alert-info"><img src="/assets/img/avatar/batman.jpg" class="comment_avatar">You're an amazing listener.</div>
+                      <div class="alert alert-info"><img src="/assets/img/avatar/chopper.jpg" class="comment_avatar">Your compassion knows no bounds.</div>
+                      <div class="alert alert-info"><img src="/assets/img/avatar/Steve Rogers captain america.jpg" class="comment_avatar">You have a beautiful soul.
+                    </div>
+                    </div>
+                  </div>
+                  <form id="commentForm" class="mt-4">
+                    <div class="form-group">
+                      <label for="commentText">Add Comment:</label>
+                      <textarea class="form-control" id="commentText" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #0a192f; color: #e5e5e5;">Post Comment</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal 4 end -->
+          <!-- modal 5 -->
+          <div class="modal fade" id="commentModal5" tabindex="-1" role="dialog" aria-labelledby="commentModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="commentModalLabel">Comments</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="comments__container">
+                    <div id="comments">
+                      <div  style="cursor: pointer;">View more comments</div>
+                      <div  class="alert alert-info"><img src="/assets/img/avatar/chopper.jpg" class="comment_avatar">You're incredibly talented.</div>
+                      <div class="alert alert-info"><img src="/assets/img/avatar/monkey d. luffy.jpg" class="comment_avatar">You're a beacon of hope for others.</div>
+                      <div class="alert alert-info"><img src="/assets/img/avatar/wonder woman.jpg" class="comment_avatar">You have a way of making people feel valued.</div>
+                    </div>
+                  </div>
+                  <form id="commentForm" class="mt-4">
+                    <div class="form-group">
+                      <label for="commentText">Add Comment:</label>
+                      <textarea class="form-control" id="commentText" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #0a192f; color: #e5e5e5;">Post Comment</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- modal 5 end -->
+
+          
+         
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

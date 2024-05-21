@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 100px;
+}
+.outside_text h4{
+    transition: .3s;
+}
+.outside_text h4:hover{
+    transform: translateX(-10px);
+}
